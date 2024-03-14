@@ -1,5 +1,5 @@
 body {
-  min-height: 2000px;
+  min-height: 2300px;
 }
 
 .jumbotron {
@@ -8,5 +8,6 @@ body {
 }
 
 #projects {
+  margin-top: -1px;
   background-color: #e2edff;
 }
