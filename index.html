@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body>
+  <body id="home">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent shadow-sm fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">Portofolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,16 +21,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -40,8 +40,8 @@
 
     <!-- Junbotron -->
     <section class="jumbotron text-center">
-      <img src="img/square.png" alt="Sayid Muhammad Jundullah" width="200" class="rounded-circle img-thumbnail mt-5 mb-3" />
-      <h1 class="display-5">Sayid Muhammad Jundullah</h1>
+      <img src="img/square.png" alt="Sayid Muhammad Jundullah" width="200" class="rounded-circle img-thumbnail mb-3" />
+      <h1 class="display-6">Sayid Muhammad Jundullah</h1>
       <p class="lead">Machine Learning Engineer | Data Scientist</p>
       <a href="https://drive.google.com/file/d/1myLdUv8nd4rCmpYqE23wbmUxAXQAgVv-/view?usp=share_link"><button type="button" class="btn btn-secondary btn-lg mt-3">Get Sayid's Resume</button></a>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -57,14 +57,14 @@
     <!-- About -->
     <section id="about">
       <div class="container">
-        <div class="row text-center">
+        <div class="row text-center mb-3">
           <div class="col">
             <h2>About Me</h2>
-            <div class="row justify-content-around fs-5 m-4">
-              <div class="col-md-4 mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, accusamus. Fugiat ratione quasi corporis dolorum, iure rerum omnis a ut?</div>
-              <div class="col-md-4 mb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non dignissimos asperiores sunt ipsum sapiente. Quae ipsa magnam eaque perferendis debitis nobis ea, consequatur aut consectetur?</div>
-            </div>
           </div>
+        </div>
+        <div class="row text-center justify-content-around m-4">
+          <div class="col-md-5 mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, accusamus. Fugiat ratione quasi corporis dolorum, iure rerum omnis a ut?</div>
+          <div class="col-md-5 mb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non dignissimos asperiores sunt ipsum sapiente. Quae ipsa magnam eaque perferendis debitis nobis ea, consequatur aut consectetur?</div>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -85,14 +85,14 @@
             <h2>My projects</h2>
           </div>
         </div>
-        <div class="row m-4">
+        <div class="row m-3">
           <div class="col-md-4 mb-3">
             <div class="card text-center">
               <div class="card-header">Featured</div>
               <div class="card-body">
                 <h5 class="card-title">Special title treatment</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-secondary">Go somewhere</a>
               </div>
               <div class="card-footer text-muted">2 days ago</div>
             </div>
@@ -103,7 +103,7 @@
               <div class="card-body">
                 <h5 class="card-title">Special title treatment</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-secondary">Go somewhere</a>
               </div>
               <div class="card-footer text-muted">2 days ago</div>
             </div>
@@ -114,7 +114,7 @@
               <div class="card-body">
                 <h5 class="card-title">Special title treatment</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-secondary">Go somewhere</a>
               </div>
               <div class="card-footer text-muted">2 days ago</div>
             </div>
@@ -127,7 +127,7 @@
               <div class="card-body">
                 <h5 class="card-title">Special title treatment</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-secondary">Go somewhere</a>
               </div>
             </div>
           </div>
@@ -137,7 +137,7 @@
               <div class="card-body">
                 <h5 class="card-title">Special title treatment</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-secondary">Go somewhere</a>
               </div>
             </div>
           </div>
@@ -156,14 +156,37 @@
     <!-- Conctact -->
     <section id="contact">
       <div class="container">
-        <div class="row text-center">
+        <div class="row text-center mb-3">
           <div class="col">
             <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="nama" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-secondary">Sent</button>
+            </form>
           </div>
         </div>
       </div>
     </section>
     <!-- Akhir Contact -->
+
+    <!-- Footer -->
+    <p class="text-secondary small text-center">© 2024 Ahmad. All right reserved</p>
+    <!-- Akhir Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>

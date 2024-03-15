@@ -1,13 +1,18 @@
-body {
-  min-height: 2300px;
-}
-
 .jumbotron {
-  padding-top: 2rem;
+  padding-top: 6rem;
   background-color: #e2edff;
 }
 
 #projects {
-  margin-top: -1px;
   background-color: #e2edff;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.navbar {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
 }
